@@ -1,67 +1,67 @@
 body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f4f4f4;
-  margin: 0;
-  flex-direction: column;
-}
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    flex-direction: column;
+  }
+  
+  #file-info {
+    margin-bottom: 20px;
+  }
+  
+  #bpm-output {
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  
+  #start-metronome {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #start-metronome:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+  
+  #flash-box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: green;
+    line-height: 200px;
+    transition: background-color 0.1s ease;
+    border-radius: 16px;
+  }
 
-#file-info {
-  margin-bottom: 20px;
-}
-
-#bpm-output {
-  font-size: 1.5rem;
-  margin: 10px;
-}
-
-#start-metronome {
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-#start-metronome:disabled {
-  background-color: #d3d3d3;
-  cursor: not-allowed;
-}
-
-#flash-box {
-  width: 200px;
-  height: 200px;
-  border: 2px solid green;
-  margin: 20px auto;
-  text-align: center;
-  font-size: 5rem;
-  font-weight: bold;
-  color: green;
-  line-height: 200px;
-  transition: background-color 0.1s ease;
-  border-radius: 16px;
-}
-
-#progress-container {
-  width: 80%;
-  max-width: 500px;
-  margin-top: 20px;
-  text-align: center;
-}
-
-#progress-bar {
-  width: 100%;
-  height: 20px;
-  appearance: none;
-}
-
-#time-display {
-  margin-top: 5px;
-  font-size: 1.1rem;
-  color: #333;
-}
+  #progress-container {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #progress-bar {
+    width: 100%;
+    height: 20px;
+    appearance: none;
+  }
+  
+  #time-display {
+    margin-top: 5px;
+    font-size: 1.1rem;
+    color: #333;
+  }
