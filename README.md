@@ -27,7 +27,7 @@ A web-based **Metronome app** that can **analyze an uploaded music file**, detec
    - Highlight the first beat in green.
 4. Progress bar and time display track playback in real-time.
 
-## Future Enhancements
+## Future Possible Enhancements
 
 - Adjustable tempo and beat subdivisions  
 - Option to generate metronome sound only (without music)  
@@ -38,26 +38,6 @@ A web-based **Metronome app** that can **analyze an uploaded music file**, detec
 ## Live Demo
 
 **[View on GitHub Pages](https://avinps.github.io/metronome/)**
-
-## Local Setup
-
-If you’d like to run this locally:
-
-**Clone this repository**
-
-git clone https://github.com/avinps/metronome.git
-
-**Go into the project directory**
-
-cd metronome
-
-**Open index.html in your browser**
-
-open index.html   (Mac)
-
-**or**
-
-start index.html  (Windows)
 
 ## Contributing
 
