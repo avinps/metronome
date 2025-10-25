@@ -11,20 +11,11 @@ A web-based **Metronome app** that can **analyze an uploaded music file**, detec
 - Real-time **progress bar** and elapsed/total time display
 - Highlights beat **1** with a green flash for rhythm guidance
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript (Web Audio API)
 - **Hosting:** GitHub Pages
 - **Version Control:** Git & GitHub
-
-## 📂 Project Structure
-
-metronome/
-│
-├── index.html        # Main web page
-├── style.css         # Styles for layout and visuals
-├── script.js         # Core logic for BPM detection and metronome
-└── README.md         # Documentation (this file)
 
 ## How It Works
 
@@ -52,15 +43,15 @@ metronome/
 
 If you’d like to run this locally:
 
-# Clone this repository
+**Clone this repository**
 git clone https://github.com/avinps/metronome.git
 
-# Go into the project directory
+**Go into the project directory**
 cd metronome
 
-# Open index.html in your browser
+**Open index.html in your browser**
 open index.html   # (Mac)
-# or
+**or**
 start index.html  # (Windows)
 
 ## Contributing
