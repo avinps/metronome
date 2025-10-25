@@ -44,15 +44,20 @@ A web-based **Metronome app** that can **analyze an uploaded music file**, detec
 If you’d like to run this locally:
 
 **Clone this repository**
+
 git clone https://github.com/avinps/metronome.git
 
 **Go into the project directory**
+
 cd metronome
 
 **Open index.html in your browser**
-open index.html   # (Mac)
+
+open index.html   (Mac)
+
 **or**
-start index.html  # (Windows)
+
+start index.html  (Windows)
 
 ## Contributing
 
